@@ -25,8 +25,8 @@ contract Token {
     
     uint public totalSupply = 10000 * 10 ** 18;    
     //want 10000 tokens, 1 token displayed = 10 ** 18, whereby "**" means power in solidity
-    string public name = "My Token";    
-    string public symbol = "TKN";   //used by exhanges when you want to buy/sell tokens
+    string public name = "T0KEN-Z";    
+    string public symbol = "TKNZ";   //used by exhanges when you want to buy/sell tokens
     uint public decimals = 18;  //define the smallest fraction of token to transfer
     
     //emit an event-> data packages that is emitted from smart contracts and be consumed outside of smart contracts
